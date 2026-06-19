@@ -13,8 +13,12 @@ type HomeController () =
         this.View()
 
     member this.About () =
-        this.ViewData.["Message"] <- "Your application description page."
+        this.ViewData.["Message"] <- "agendamento das conta laranja."
+        this.ViewData.["email"] <- "gmaildoscria@gmail.com."
+        this.ViewData.["professor"] <- "erick santos"
+
         this.View()
+        
 
     member this.Contact () =
         this.ViewData.["Message"] <- "Your contact page."
